@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 10px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    background-color:blue;
+    border:solid
+}
+
+.hero{
+    background-color:red;
+    border:solid
+}
+
+.content{
+    background-color:green;
+    border:solid
+}
+
+.sidebar{
+    background-color:purple;
+    border:solid
+}
+
+footer{
+    background-color:gray;
+    border:solid
+}
+
+h1{
+    margin:0px
+}
+
+
+/* ------------ 360 o menos ------------ */
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .container{
+    display: flex;
+    flex-direction:column;
+}
+
+@media screen and (min-width:361px){
+    width: 360px;
+
+    .wrapper {
+        width: 360px;
+      }
+
+    .container{
+        flex-direction:row;
+    }
+
+
+/* 961 o mas  */
+  @media screen and (min-width: 961px) {
+    .wrapper {
+      width: 960px;
+    }
+}
